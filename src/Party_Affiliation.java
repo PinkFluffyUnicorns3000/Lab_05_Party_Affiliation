@@ -10,7 +10,7 @@ class PartyAffiliation
         else if partyAlfill == “Independant”
 	        output “You get a independent man”
 	    else
-	        output "You are affiliated with a other party. "
+	        output "You are affiliated with a other party."
         endIf
 
     return
