@@ -9,7 +9,10 @@ class PartyAffiliation
 	        output “you get a republican elephant”
         else if partyAlfill == “Independant”
 	        output “You get a independent man”
+	    else
+	        output "You are affiliated with a other party. "
         endIf
+
     return
 endClass
 
@@ -36,7 +39,7 @@ public class Party_Affiliation {
         {
             System.out.println("You get the Independent Man");
         }
-        else // Has to a other party
+        else // Has to be a other party
         {
             System.out.println("You are affiliated with a other party");
         }
