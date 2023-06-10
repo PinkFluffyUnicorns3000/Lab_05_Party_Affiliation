@@ -36,7 +36,7 @@ public class Party_Affiliation {
         {
             System.out.println("You get the Independent Man");
         }
-        else
+        else // Has to a other party
         {
             System.out.println("You are affiliated with a other party");
         }
