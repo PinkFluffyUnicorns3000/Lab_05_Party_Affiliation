@@ -1,6 +1,7 @@
 /*
 class PartyAffiliation
     main()
+        String partyAfill = ""
         output “What is your party affiliation?”
         input String partyAfill
         if partyAfill == “Democrate” then
